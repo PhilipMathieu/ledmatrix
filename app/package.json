@@ -34,7 +34,6 @@
   },
   "homepage": "https://github.com/resin-io-playground/supervisor-ledmatrix-status#readme",
   "dependencies": {
-    "artikcloud-js": "^2.0.5",
     "async": "^2.0.1",
     "bleno": "^0.4.1",
     "body-parser": "^1.15.2",
