@@ -35,7 +35,7 @@
 
     // declaring server
     let server = function() {
-        this.port = (process.env.WEB_SERVER_PORT == null) ? 80 : process.env.WEB_SERVER_PORT;
+        this.port = (process.env.WEB_SERVER_PORT == null) ? 8080 : process.env.WEB_SERVER_PORT;
         if (!(this instanceof server)) return new server();
     };
     util.inherits(server, EventEmitter);
